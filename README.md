@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# gomoku-vue
-Vue framework for Gomoku
-=======
-# wuziqi
-
 ## Project setup
 ```
 npm install
@@ -26,4 +20,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> 2287239 (init)
