@@ -1,26 +1,41 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <div class="relative-container">
+    <video class="background-video" autoplay loop muted playsinline>
+          <source src="../src/assets/video/backg.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+      </video>
+      <MainPage/>
+   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import MainPage from './components/MainPage.vue'
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components:{
+    MainPage
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
 </style>
