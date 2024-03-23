@@ -1,5 +1,5 @@
 # Demo
-![demo](src/assets/video/My Movie.gif)
+![demo](src/assets/video/My%20Movie.gif)
 
 ## Project setup
 ```
