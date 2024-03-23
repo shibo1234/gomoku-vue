@@ -1,4 +1,4 @@
-#Demo
+# Demo
 ![demo](src/assets/video/My Movie.gif)
 
 ## Project setup
